@@ -14,7 +14,7 @@ def clear_expression():
     global expression
     expression = ""
     display.set_text(expression)
-
+    
 def calculate():
     """Evaluate the expression and display the quirky result."""
     global expression
